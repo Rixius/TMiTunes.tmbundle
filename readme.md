@@ -3,6 +3,7 @@
 ***
 
 ### Installation
+Read license.md before Proceeding. TMiTunes is released under the MIT License
 use the following command to install into TextMate
 
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
