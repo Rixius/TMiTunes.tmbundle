@@ -1,4 +1,4 @@
-# TMiTunes
+## TMiTunes
 ## An iTunes Manager for your Text Mate  
 
 ### Installation
