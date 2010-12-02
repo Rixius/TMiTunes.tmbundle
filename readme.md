@@ -1,9 +1,8 @@
 # TMiTunes
-## An iTunes Manager for your Text Mate
-***
+## An iTunes Manager for your Text Mate  
 
 ### Installation
-Read license.md before Proceeding. TMiTunes is released under the MIT License
+Read [license.md][license] before Proceeding. TMiTunes is released under the MIT License
 use the following command to install into TextMate
 
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
@@ -23,3 +22,5 @@ use the following command to install into TextMate
 ### Planned features
  - Changing current Playlist
  - Searching for a track/artist/etc and playing it
+
+[license]: https://github.com/Rixius/TMiTunes.tmbundle/blob/master/license.md "MIT License"
