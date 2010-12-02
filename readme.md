@@ -25,4 +25,4 @@ use the following command to install into TextMate
  - Searching for a track/artist/etc and playing it
  - equalizer settings
 
-[license]: https://github.com/Rixius/TMiTunes.tmbundle/blob/master/license.md "MIT License"
+[license]: license.md "MIT License"
