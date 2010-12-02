@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>8A3DFA98-815F-4195-B894-FEBCEA263823</string>
+			<string>C0EC2A86-CA67-4239-AA08-FAAF5E128B8C</string>
+			<string>08D73298-5F05-41EB-AD1C-61EFA95581C0</string>
+			<string>A7AEF259-2829-48DF-A970-5165EF10C820</string>
+			<string>------------------------------------</string>
+			<string>62099B4B-5EAA-47B0-9B62-91E29F538904</string>
+			<string>6072FAD4-49E5-4565-8208-B92537F391FC</string>
+			<string>------------------------------------</string>
+			<string>736706DD-6EF2-426D-B918-C7030E85A699</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
+	<key>name</key>
+	<string>iTunes Manager</string>
+	<key>uuid</key>
+	<string>F5C4BAD3-59F5-4765-8589-39837A73801B</string>
+</dict>
+</plist>

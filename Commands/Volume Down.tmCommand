@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/osascript
+#volume-
+tell application "iTunes"
+  set sound volume to (sound volume - 10)
+  (sound volume as string) &amp; "%"
+end tell</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@_</string>
+	<key>name</key>
+	<string>Volume Down</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>6072FAD4-49E5-4565-8208-B92537F391FC</string>
+</dict>
+</plist>
