@@ -24,4 +24,4 @@ use the following command to install into TextMate
  - Changing current Playlist
  - Searching for a track/artist/etc and playing it
 
-[license]: TMiTunes.tmbundle/blob/master/license.md "MIT License"
+[license]: https://github.com/Rixius/TMiTunes.tmbundle/blob/master/license.md "MIT License"
