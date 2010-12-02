@@ -1,5 +1,5 @@
-## TMiTunes
-## An iTunes Manager for your Text Mate  
+# TMiTunes
+An iTunes Manager for your Text Mate  
 
 ### Installation
 Read [license.md][license] before Proceeding. TMiTunes is released under the MIT License
@@ -20,6 +20,7 @@ use the following command to install into TextMate
  - Toggle Repeat (⌘⇧R)
  
 ### Planned features
+ - Sort By (artist/title/year/etc.)(ascending/descending)
  - Changing current Playlist
  - Searching for a track/artist/etc and playing it
 
