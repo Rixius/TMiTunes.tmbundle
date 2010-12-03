@@ -20,6 +20,12 @@
 				<key>value</key>
 				<string>1</string>
 			</dict>
+			<dict>
+				<key>name</key>
+				<string>TMiT_DISPLAY</string>
+				<key>value</key>
+				<string>show</string>
+			</dict>
 		</array>
 	</dict>
 	<key>uuid</key>

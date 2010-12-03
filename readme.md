@@ -19,6 +19,26 @@ use the following command to install into TextMate
  - Lower Volume (⌘⇧-)
  - Toggle Shuffle (⌘⇧S)
  - Toggle Repeat (⌘⇧R)
+
+### Configurable details
+under Bundle Editor, there is a preference field called System Variables. Under this you will find the following text:
+
+    {	shellVariables = (
+    		{	name = 'TMiT_DELAY';
+    			value = '2';
+    		},
+    		{	name = 'TMiT_SHORT_DELAY';
+    			value = '1';
+    		},
+    		{	name = 'TMiT_DISPLAY';
+    			value = 'show';
+    		},
+    	);
+    }
+
+ - TMiT\_DELAY is how long the song info stays on the screen (in seconds) 
+ - TMiT\_SHORT\_DELAY is how long the setting info(repeat,volume,shuffle) stays on the screen (in seconds)
+ - TMiT\_DISPLAY is whether song info is displayed on the play/pause,next,and previous track. leave at 'show' to show, anything else will not display.
  
 ### Planned features(if possible with AppleScript)
  - Sort By (artist/title/year/etc.)(ascending/descending)
