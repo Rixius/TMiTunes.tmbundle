@@ -6,17 +6,21 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/usr/bin/osascript
+prop parent : app "TextMate"
+
 tell application "iTunes"
   tell current playlist
     if shuffle is false then
       set shuffle to true
-      "Shuffle is on"
+      set TMiTStatus to "Shuffle is on"
     else  
       set shuffle to false
-      "Shuffle is off"
+      set TMiTStatus to "Shuffle is off"
     end if
   end tell
-end tell</string>
+end tell
+if TMiTStatus exists then display dialog TMiTStatus buttons {"◊"} giving up after system attribute "TMiT_SHORT_DELAY"
+  </string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
@@ -24,7 +28,7 @@ end tell</string>
 	<key>name</key>
 	<string>Toggle Shuffle</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>discard</string>
 	<key>uuid</key>
 	<string>736706DD-6EF2-426D-B918-C7030E85A699</string>
 </dict>

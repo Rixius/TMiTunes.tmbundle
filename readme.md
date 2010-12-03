@@ -1,3 +1,4 @@
+[license]: TMiTunes.tmbundle/blob/master/license.md "MIT-Style License"
 # TMiTunes
 An iTunes Manager for your Text Mate  
 
@@ -25,4 +26,3 @@ use the following command to install into TextMate
  - Searching for a track/artist/etc and playing it
  - equalizer settings
 
-[license]: TMiTunes.tmbundle/blob/master/license.md "MIT-Style License"

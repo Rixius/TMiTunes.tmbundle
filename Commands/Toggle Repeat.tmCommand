@@ -6,24 +6,29 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/usr/bin/osascript
+prop parent : app "TextMate"
+
 tell application "iTunes"
   tell current playlist
     if song repeat is off then
       set song repeat to one
-      "Repeating current track"
+      set TMiTStatus to "Repeating current track"
     else 
       if song repeat is one then
         set song repeat to all
-        "Repeating all"
+        set TMiTStatus to "Repeating all"
       else 
         if song repeat is all then
           set song repeat to off
-          "Not repeating anything"
+          set TMiTStatus to "Not repeating anything"
         end if
       end if
     end if
   end tell
-end tell</string>
+end tell
+
+if TMiTStatus exists then display dialog TMiTStatus buttons {"◊"} giving up after system attribute "TMiT_SHORT_DELAY"
+  </string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
@@ -31,7 +36,7 @@ end tell</string>
 	<key>name</key>
 	<string>Toggle Repeat</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>discard</string>
 	<key>uuid</key>
 	<string>E2E1ADD0-EBB0-414C-93ED-53D14FF301D0</string>
 </dict>

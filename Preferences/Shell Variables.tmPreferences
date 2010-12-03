@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Shell Variables</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>TMiT_DELAY</string>
+				<key>value</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>TMiT_SHORT_DELAY</string>
+				<key>value</key>
+				<string>1</string>
+			</dict>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>372ABB47-F554-4F95-B5C3-8BCF8452EC74</string>
+</dict>
+</plist>

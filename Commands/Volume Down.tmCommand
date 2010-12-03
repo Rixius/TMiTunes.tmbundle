@@ -7,10 +7,15 @@
 	<key>command</key>
 	<string>#!/usr/bin/osascript
 #volume-
+prop parent : app "TextMate"
+
 tell application "iTunes"
   set sound volume to (sound volume - 10)
-  (sound volume as string) &amp; "%"
-end tell</string>
+  set TMiTStatus to (sound volume as string) &amp; "%"
+end tell
+
+if TMiTStatus exists then display dialog TMiTSTatus buttons {"◊"} giving up after system attribute "TMiT_SHORT_DELAY"
+  </string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
@@ -18,7 +23,7 @@ end tell</string>
 	<key>name</key>
 	<string>Volume Down</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>discard</string>
 	<key>uuid</key>
 	<string>6072FAD4-49E5-4565-8208-B92537F391FC</string>
 </dict>

@@ -7,11 +7,15 @@
 	<key>command</key>
 	<string>#!/usr/bin/osascript
 #playpause
+prop parent : app "TextMate"
+
 tell application "iTunes"
   playpause
-  if not(exists current track) then "unknown"
-  (get name of current track) &amp; "\nFrom " &amp; (get album of current track) &amp; "\nBy " &amp; (get artist of current track) &amp; "\nin " &amp; (get year of current track)
-end tell</string>
+  if exists current track then set TMiTCurrent to (get name of current track) &amp; "\nFrom " &amp; (get album of current track) &amp; "\nBy " &amp; (get artist of current track) &amp; "\nin " &amp; (get year of current track)
+end tell
+
+if TMiTCurrent exists then display dialog TMiTCurrent buttons {"◊"} giving up after system attribute "TMiT_DELAY"
+  </string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
@@ -19,7 +23,7 @@ end tell</string>
 	<key>name</key>
 	<string>Play/Pause</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>discard</string>
 	<key>uuid</key>
 	<string>C0EC2A86-CA67-4239-AA08-FAAF5E128B8C</string>
 </dict>
