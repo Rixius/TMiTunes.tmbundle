@@ -20,6 +20,7 @@ use the following command to install into TextMate
  - Toggle Shuffle (⌃⌥⌘S)
  - Toggle Repeat (⌃⌥⌘R)
 
+
 ### Configurable details
 under Bundle Editor, there is a preference field called System Variables. Under this you will find the following text:
 
