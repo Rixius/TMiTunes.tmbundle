@@ -15,7 +15,7 @@ tell application "iTunes"
 end tell
 
 set TMiTDisplay to system attribute "TMiT_DISPLAY"
-if TMiTDisplay is equal to 'show' and TMiTCurrent exists then display dialog TMiTCurrent buttons {"◊"} giving up after system attribute "TMiT_DELAY"
+if TMiTDisplay is equal to "show" and exists TMiTCurrent then display dialog TMiTCurrent buttons {"◊"} with title "TMiTunes" giving up after system attribute "TMiT_DELAY"
   </string>
 	<key>input</key>
 	<string>none</string>

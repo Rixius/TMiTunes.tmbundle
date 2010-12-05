@@ -27,7 +27,7 @@ tell application "iTunes"
   end tell
 end tell
 
-if TMiTStatus exists then display dialog TMiTStatus buttons {"◊"} giving up after system attribute "TMiT_SHORT_DELAY"
+if TMiTStatus exists then display dialog TMiTStatus buttons {"◊"} with title "TMiTunes" giving up after system attribute "TMiT_SHORT_DELAY"
   </string>
 	<key>input</key>
 	<string>none</string>

@@ -11,10 +11,10 @@ prop parent : app "TextMate"
 
 tell application "iTunes"
   set sound volume to (sound volume - 10)
-  set TMiTStatus to (sound volume as string) &amp; "%"
+  set TMiTStatus to "Volume is :" &amp; (sound volume as string) &amp; "%"
 end tell
 
-if TMiTStatus exists then display dialog TMiTSTatus buttons {"◊"} giving up after system attribute "TMiT_SHORT_DELAY"
+if TMiTStatus exists then display dialog TMiTSTatus buttons {"◊"} with title "TMiTunes" giving up after system attribute "TMiT_SHORT_DELAY"
   </string>
 	<key>input</key>
 	<string>none</string>
