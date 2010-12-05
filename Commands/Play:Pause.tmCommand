@@ -20,11 +20,11 @@ if TMiTDisplay is equal to "show" and exists TMiTCurrent then display dialog TMi
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>$@</string>
+	<string>^~@</string>
 	<key>name</key>
 	<string>Play/Pause</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>discard</string>
 	<key>uuid</key>
 	<string>C0EC2A86-CA67-4239-AA08-FAAF5E128B8C</string>
 </dict>

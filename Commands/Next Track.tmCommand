@@ -21,7 +21,7 @@ if TMiTDisplay is equal to "show" and exists TMiTCurrent then display dialog TMi
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>$@</string>
+	<string>^~@</string>
 	<key>name</key>
 	<string>Next Track</string>
 	<key>output</key>

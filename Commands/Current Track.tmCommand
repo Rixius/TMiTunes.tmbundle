@@ -17,7 +17,7 @@ if TMiTCurrent exists then display dialog TMiTCurrent buttons {"◊"} with title
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>$@</string>
+	<string>^~@</string>
 	<key>name</key>
 	<string>Current Track</string>
 	<key>output</key>

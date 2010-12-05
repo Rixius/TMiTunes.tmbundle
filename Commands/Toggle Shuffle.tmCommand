@@ -24,7 +24,7 @@ if TMiTStatus exists then display dialog TMiTStatus buttons {"◊"} with title "
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>@S</string>
+	<string>^~@s</string>
 	<key>name</key>
 	<string>Toggle Shuffle</string>
 	<key>output</key>

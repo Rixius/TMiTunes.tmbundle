@@ -11,14 +11,14 @@ use the following command to install into TextMate
     git clone git://github.com/Rixius/TMiTunes.tmbundle.git
 
 ### Current Features Supported
- - Play/Pause (⌘⇧↓)
- - Next Track (⌘⇧→)
- - Previous Track (⌘⇧ ←)
- - What am I listening to? (⌘⇧↑)
- - Raise Volume (⌘⇧+)
- - Lower Volume (⌘⇧-)
- - Toggle Shuffle (⌘⇧S)
- - Toggle Repeat (⌘⇧R)
+ - Play/Pause (⌃⌥⌘↓)
+ - Next Track (⌃⌥⌘→)
+ - Previous Track (⌃⌥⌘ ←)
+ - What am I listening to? (⌃⌥⌘↑)
+ - Raise Volume (⌃⌥⌘+)(technically ⌃⌥⌘=, because adding ⇧ would break the format.)
+ - Lower Volume (⌃⌥⌘-)
+ - Toggle Shuffle (⌃⌥⌘S)
+ - Toggle Repeat (⌃⌥⌘R)
 
 ### Configurable details
 under Bundle Editor, there is a preference field called System Variables. Under this you will find the following text:

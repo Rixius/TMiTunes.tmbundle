@@ -32,7 +32,7 @@ if TMiTStatus exists then display dialog TMiTStatus buttons {"◊"} with title "
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>@R</string>
+	<string>^~@r</string>
 	<key>name</key>
 	<string>Toggle Repeat</string>
 	<key>output</key>

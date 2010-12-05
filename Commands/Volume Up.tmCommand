@@ -19,7 +19,7 @@ if TMiTStatus exists then display dialog TMiTSTatus buttons {"◊"} with title "
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>@+</string>
+	<string>^~@=</string>
 	<key>name</key>
 	<string>Volume Up</string>
 	<key>output</key>
